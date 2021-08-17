@@ -12,7 +12,7 @@
     "projects": [
       
       {
-        "title": "UX Work 1",
+        "title": "UX Work I",
         "startDate": "2021",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
@@ -47,7 +47,7 @@
         ]
       },
       {
-        "title": "UX Work 2",
+        "title": "UX Work II",
         "startDate": "2020",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
@@ -55,6 +55,60 @@
           "images/portfolio/UX1/UX-2.png"
         ],
         "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "UX WORK III",
+        "startDate": "2021",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/UX3/UX-1.png",
+          "images/portfolio/UX3/UX-2.png",
+          "images/portfolio/UX3/UX-3.png",
+          "images/portfolio/UX3/UX-4.png",
+          "images/portfolio/UX3/UX-5.png",
+          "images/portfolio/UX3/UX-6.png",
+          "images/portfolio/UX3/UX-7.png",
+          "images/portfolio/UX3/UX-8.png",
+          "images/portfolio/UX3/UX-9.png",
+          "images/portfolio/UX3/UX-10.png",
+          "images/portfolio/UX3/UX-11.png",
+          "images/portfolio/UX3/UX-12.png",
+          "images/portfolio/UX3/UX-13.png",
+          "images/portfolio/UX3/UX-14.png",
+          "images/portfolio/UX3/UX-15.png",
+          "images/portfolio/UX3/UX-16.png",
+          "images/portfolio/UX3/UX-17.png",
+          "images/portfolio/UX3/UX-18.png",
+          "images/portfolio/UX3/UX-19.png",
+          "images/portfolio/UX3/UX-20.png",
+          "images/portfolio/UX3/UX-21.png",
+          "images/portfolio/UX3/UX-22.png",
+          "images/portfolio/UX3/UX-23.png",
+          "images/portfolio/UX3/UX-24.png",
+          "images/portfolio/UX3/UX-25.png",
+          "images/portfolio/UX3/UX-26.png",
+          "images/portfolio/UX3/UX-27.png",
+          "images/portfolio/UX3/UX-28.png",
+          "images/portfolio/UX3/UX-29.png",
+          "images/portfolio/UX3/UX-30.png",
+          "images/portfolio/UX3/UX-31.png",
+          "images/portfolio/UX3/UX-32.png"
+        ],
+        "url": "https://github.com",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -130,37 +184,14 @@
           }
         ]
       },
+
       {
-        "title": "5.3D Object Viewer",
-        "startDate": "2015",
+        "title": "P.S.A",
+        "startDate": "2020",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "6.3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/PSA/PSA.png"
+          
         ],
         "url": "https://github.com",
         "technologies": [
