@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-// import logo from './../images/logo-01.png';
 
 class Header extends Component {
   titles = [];
@@ -40,8 +39,8 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              {/* <img src={logo} className="App-logo" alt="logo"/> */}
+              {/* <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span> */}
+              <img src="images/logo-01.png" className="App-logo" alt="logo"/>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
