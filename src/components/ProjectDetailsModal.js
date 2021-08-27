@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import ReactPlayer from "react-player/youtube";
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -11,6 +12,7 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
+      var videoURL = this.props.data.videoURL;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -74,7 +76,10 @@ class ProjectDetailsModal extends Component {
               className="slider-image"
             >
               {img}
+              
             </AwesomeSlider>
+            
+            <ReactPlayer url={videoURL} />
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
@@ -95,7 +100,7 @@ class ProjectDetailsModal extends Component {
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              {/* <ul className="list-inline mx-auto">{tech}</ul> */}
             </div>
           </div>
         </div>

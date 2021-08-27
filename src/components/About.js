@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import Description from "./Description"
 
 class About extends Component {
   render() {
@@ -12,7 +13,8 @@ class About extends Component {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+      //const test = ["wo","ai","luqing"]
+      var description = this.props.resumeBasicInfo.description
     }
 
     return (
@@ -80,8 +82,9 @@ class About extends Component {
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
-                  </div>
+                    <Description description={description}
+                     />                  
+                    </div>
                 </div>
               </div>
             </div>

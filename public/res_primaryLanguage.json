@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Qing Lu. As a professional web developer, I have always been result-oriented and solution-oriented. In addition, I am good at thinking and have strong logical thinking skills, and I am especially passionate about using coding techniques and programming solutions. At the same time, I am still a creative and imaginative person, which is of great help to my work in UI/UX design. I am good at putting forward design plans and solutions with customers as the center. I can learn quickly and design scalable solutions to challenging problems, which will allow me to work as a front-end designer and developer. In terms of website design and development, I reckon that thinking and imagination are the prerequisites for doing things. The design and planning of the website is very important in the entire workflow. Because the correct design and planning of the website in advance can avoid losses caused by major problems in the later period. In addition, the design is to better serve users, both in terms of appearance and function. I firmly believe that good design will bring users a good mood and a more convenient lifestyle. I am full of enthusiasm for my career, and I hope to work hard to do everything well. I look forward to new things and new challenges, which can make me continue to improve and gradually become a leader.💜",
+      "description": ["👋 I'm Qing Lu. As a professional web developer, I have always been result-oriented and solution-oriented. In addition, I am good at thinking and have strong logical thinking skills, ","and I am especially passionate about using coding techniques and programming solutions. At the same time, I am still a creative and imaginative person, which is of great help to my work in UI/UX design. I am good at putting forward design plans and solutions with customers as the center. I can learn quickly and design scalable solutions to challenging problems, which will allow me to work as a front-end designer and developer. In terms of website design and development, I reckon that thinking and imagination are the prerequisites for doing things. The design and planning of the website is very important in the entire workflow. Because the correct design and planning of the website in advance can avoid losses caused by major problems in the later period. In addition, the design is to better serve users, both in terms of appearance and function. I firmly believe that good design will bring users a good mood and a more convenient lifestyle. I am full of enthusiasm for my career, and I hope to work hard to do everything well. I look forward to new things and new challenges, which can make me continue to improve and gradually become a leader.💜"],
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -210,13 +210,14 @@
         ]
       },
       {
-        "title": "7.3D Object Viewer",
-        "startDate": "2015",
+        "title": "Visual Rhetoric Shape Morph",
+        "startDate": "2020",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          
+          "images/portfolio/video/V-1.jpeg"
         ],
+        "videoURL": "https://www.youtube.com/watch?v=Aa8FQ3nOPCU",
         "url": "https://github.com",
         "technologies": [
           {
@@ -234,13 +235,13 @@
         ]
       },
       {
-        "title": "8.3D Object Viewer",
-        "startDate": "2015",
+        "title": "2D character animation",
+        "startDate": "2021",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/video/V-2.jpeg"
         ],
+        "videoURL": "https://www.youtube.com/watch?v=ulvc9Vhg-gU",
         "url": "https://github.com",
         "technologies": [
           {
@@ -258,13 +259,14 @@
         ]
       },
       {
-        "title": "9.3D Object Viewer",
-        "startDate": "2015",
+        "title": "Kinetic Typography",
+        "startDate": "2021",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/video/V-3.jpeg"
+          
         ],
+        "videoURL": "https://www.youtube.com/watch?v=J4BGMY0GtQA",
         "url": "https://github.com",
         "technologies": [
           {
@@ -284,7 +286,18 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "workContent": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ],
+        
         "title": "Cya Inc - Toronto",
         "years": "10/2019 - 03/2020",
         "mainTech": [
@@ -303,7 +316,7 @@
         ]
       },
       {
-        "company": "Serros Solutions",
+        "workContent": "Serros Solutions",
         "title": "Mercedes-Benz Automotive Finance Co., Ltd. - Beijing",
         "years": "09/2016 - 03/2018",
         "mainTech": [
@@ -318,7 +331,7 @@
         ]
       },
       {
-        "company": "Serros Solutions",
+        "workContent": "Serros Solutions",
         "title": "Lenovo (Beijing) Co., Ltd. - Beijing",
         "years": "06/2015 - 09/2016",
         "mainTech": [
