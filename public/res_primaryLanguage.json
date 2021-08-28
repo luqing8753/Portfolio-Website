@@ -316,7 +316,17 @@
         ]
       },
       {
-        "workContent": "Serros Solutions",
+        "workContent": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ],
         "title": "Mercedes-Benz Automotive Finance Co., Ltd. - Beijing",
         "years": "09/2016 - 03/2018",
         "mainTech": [
@@ -331,7 +341,17 @@
         ]
       },
       {
-        "workContent": "Serros Solutions",
+        "workContent": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ],
         "title": "Lenovo (Beijing) Co., Ltd. - Beijing",
         "years": "06/2015 - 09/2016",
         "mainTech": [

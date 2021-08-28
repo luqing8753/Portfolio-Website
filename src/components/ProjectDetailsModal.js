@@ -13,6 +13,11 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var videoURL = this.props.data.videoURL;
+      var videoShow = false
+      if (videoURL){
+        videoShow = true
+      }
+      console.log("here", videoURL)
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -32,9 +37,11 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
+
             return <div key={i} data-src={elem} />;
           });
         }
+
       }
     }
     return (
@@ -50,7 +57,10 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
+
+
+            
+             {!videoShow && <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
                 data-icon="emojione:red-circle"
@@ -69,18 +79,27 @@ class ProjectDetailsModal extends Component {
                 data-icon="twemoji:green-circle"
                 data-inline="false"
               ></span>
-            </div>
-            <AwesomeSlider
+            </div>}
+
+              {!videoShow &&  <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
-              className="slider-image"
-            >
-              {img}
-              
-            </AwesomeSlider>
+               className="slider-image"
+            >             
+              {img}                           
+              </AwesomeSlider>}
+
+  
+
             
-            <ReactPlayer url={videoURL} />
+              {videoShow && < ReactPlayer url={videoURL} />}
+
+            {/* <ReactPlayer url={videoURL} /> */}
           </div>
+
+
+
+
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}

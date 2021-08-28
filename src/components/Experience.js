@@ -11,6 +11,23 @@ class Experience extends Component {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
+
+
+    var values = []
+    const content = work.workContent
+    for (let index = 0; index < content.length; index++) {
+      console.log(content[index])
+      values.push(content[index])
+  
+      }
+    const contentItems = values.map((item) => {
+        return <p>{ item}</p>
+    })      
+
+
+
+
+
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 
@@ -54,8 +71,9 @@ class Experience extends Component {
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.workContent}
+              {contentItems}
             </p>
+ 
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );
