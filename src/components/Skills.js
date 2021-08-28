@@ -15,8 +15,15 @@ class Skills extends Component {
                     style={{ fontSize: "30%", marginTop: "4px" }}
                   >
                     {skills.name}
+                    
                   </p>
+                  <p className="text-center"
+                    style={{ fontSize: "30%", color: "#F6DFA4", marginTop: "4px" }}>
+                  {skills.rate}
+                  </p>
+                  
                 </i>
+                
               </div>
             </span>
           </li>

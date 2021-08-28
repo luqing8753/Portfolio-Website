@@ -20,47 +20,74 @@
       "icons": [
         {
           "name": "HTML 5",
+          "rate": "4.6/5.0",
           "class": "devicon-html5-plain",
           "level": "95"
         },
         {
           "name": "CSS 3",
+          "rate": "4.5/5.0",
           "class": "devicon-css3-plain",
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "Vue.js",
+          "rate": "4.3/5.0",
+          "class": "devicon-vuejs-plain",
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Node.js",
+          "rate": "4.5/5.0",
+          "class": "devicon-nodejs-plain",
           "level": "90"
         },
         {
           "name": "JavaScript",
+          "rate": "4.7/5.0",
           "class": "devicon-javascript-plain",
           "level": "70"
         },
         {
           "name": "Sass",
+          "rate": "4.3/5.0",
           "class": "devicon-sass-original",
           "level": "75"
         },
         {
           "name": "Bootstrap",
+          "rate": "4.8/5.0",
           "class": "devicon-bootstrap-plain",
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "MySql",
+          "rate": "4.5/5.0",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Illustrator",
+          "rate": "4.8/5.0",
+          "class": "devicon-illustrator-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Photoshop",
+          "rate": "4.6/5.0",
+          "class": "devicon-photoshop-plain",
+          "level": "60"
+        },
+        {
+          "name": "XD",
+          "rate": "4.8/5.0",
+          "class": "devicon-xd-plain",
+          "level": "60"
+        },
+        {
+          "name": "Sketch",
+          "rate": "4.6/5.0",
+          "class": "devicon-sketch-line",
           "level": "60"
         }
       ]

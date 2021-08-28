@@ -287,15 +287,16 @@
     "experience": [
       {
         "workContent": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Monitored the systems and respond to security, usability and performance concerns",
+          "Using JavaScript, HTML, and CSS to build fast, clean written tests within our A/B testing framework",
+          "Maintained and monitor daily performance of computer systems",
+          "Collaborated with designers and product owners to build meaningful tests",
+          "Established and maintain operating procedures documents",
+          "Helped test front end and API, report bugs to developers",
+          "Discussed project process with back end developers",
+          "Worked with QA and release teams to test and release code into production environments.",
+          "Designed event posters with Photoshop",
+          "Helped DevOps engineer to create DNS records in development environment"
         ],
         
         "title": "Cya Inc - Toronto",
@@ -305,27 +306,25 @@
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "Node.js",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "MySQL",
+          "Vue.js",
+          "Communication Skill",
+          "Adobe Photoshop",
+          "Testing"
         ]
       },
       {
         "workContent": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Provided IT support to the finance, leasing team and all the financial consultant across China",
+          "Created accounts, reset password and give permissions for user",
+          "Received user applications tickets through online application system, managed related accounts and permissions for users including creation, deletion, and modification",
+          "Account collaborated and ensured effective communication between all teams",
+          "Reviewed the account regularly with the audit company, cooperated with audit company to complete various tasks",
+          "Successfully implemented on-the-job training of the new operating system and inspection of new employees",
+          "Created & maintained internal support documentation for team members to reference"
         ],
         "title": "Mercedes-Benz Automotive Finance Co., Ltd. - Beijing",
         "years": "09/2016 - 03/2018",
@@ -333,24 +332,20 @@
           "Application Support Engineer"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "IT Support",
+          "Customer Service",
+          "Troubleshotting",
+          "Account Management"
         ]
       },
       {
         "workContent": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Learned from IT professionals how to meet the support needs of all the Lenovo users around China",
+          "Responded to client calls or WeChat consulting by providing accurate information regarding products and services offered through Lenovo PC",
+          "Provided phone and online support to users",
+          "Delivered troubleshooting solutions to user experiencing difficulties with software, hardware, and network connectivity",
+          "Helped customers submit technical tickets to related departments to solve the problem",
+          "Maintained a positive and professional approach with customers and other service teams"
         ],
         "title": "Lenovo (Beijing) Co., Ltd. - Beijing",
         "years": "06/2015 - 09/2016",
@@ -358,11 +353,9 @@
           "IT Support"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "IT Support",
+          "Customer Service",
+          "Troubleshotting"
         ]
       }
     ]
