@@ -16,6 +16,15 @@ class Header extends Component {
     this.setTheme();
   }
 
+  componentDidMount(){
+   // console.log("nihao")
+    var dataThemeAttribute = "data-theme";
+    var body = document.body;
+    var newTheme = "light";
+      //body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+    body.setAttribute(dataThemeAttribute, newTheme);
+  }
+
   setTheme() {
     var dataThemeAttribute = "data-theme";
     var body = document.body;

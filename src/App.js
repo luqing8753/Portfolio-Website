@@ -22,10 +22,10 @@ class App extends Component {
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    var resumePath = `res_primaryLanguage.json`;
+      // document.documentElement.lang === window.$primaryLanguage
+      //   ? `res_primaryLanguage.json`
+      //   : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -34,12 +34,12 @@ class App extends Component {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(oppositeLangIconId)
+    //   .removeAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(pickedLangIconId)
+    //   .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
@@ -84,7 +84,7 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
+          {/* <div
             onClick={() =>
               this.applyPickedLanguage(
                 window.$primaryLanguage,
@@ -99,8 +99,8 @@ class App extends Component {
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             onClick={() =>
               this.applyPickedLanguage(
                 window.$secondaryLanguage,
@@ -115,7 +115,7 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
-          </div>
+          </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}

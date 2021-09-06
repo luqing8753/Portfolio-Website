@@ -14,7 +14,7 @@
       {
         "title": "UX Work I",
         "startDate": "2021",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "This is an APP for sharing electric bicycles. The entire research, design, and prototype work was done by myself. The main content of the APP includes reserve or scan electric bike, lock or unlock electric bike, make payment, load payment account, etc. I've earned A grade :)",
         "images": [
           "images/portfolio/UX2/UX-1.png",
           "images/portfolio/UX2/UX-2.png",
@@ -49,7 +49,7 @@
       {
         "title": "UX Work II",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "This is a group assignment on UX for online shopping, which was done by me and two other classmates. The main parts I am responsible for are “Confirm order”, “Contact us”, “Review center”, “Leave a review”.",
         "images": [
           "images/portfolio/UX1/UX-1.png",
           "images/portfolio/UX1/UX-2.png"
@@ -73,7 +73,7 @@
       {
         "title": "UX WORK III",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a case study of a fitness mobile APP. The main content includes project proposal, UX implementation, design system, etc. It is a very complete mobile APP design process.",
         "images": [
           "images/portfolio/UX3/UX-1.png",
           "images/portfolio/UX3/UX-2.png",
@@ -127,7 +127,7 @@
       {
         "title": "Icon Art Work",
         "startDate": "2020",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a set of icons completed using the golden section principle. It is based on the theme of Japanese anime One Piece. The main characters include Luffy, Sanji, Nami, Chopper, Usopp, Zoro. I like this work very much, both in terms of color and appearance.",
         "images": [
           "images/portfolio/icon/icon-1.png",
           "images/portfolio/icon/icon-2.png",
@@ -156,7 +156,7 @@
       {
         "title": "Brand Standards Manual",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a brand standards manual designed for SPLASH energy drinks. It was completed by me and one of my classmates. This standards manual mainly shows our logo and packaging design for this energy drink.",
         "images": [
           "images/portfolio/brandBook/page-1.png",
           "images/portfolio/brandBook/page-2.png",
@@ -188,7 +188,7 @@
       {
         "title": "P.S.A",
         "startDate": "2020",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a public service announcement about health. It reminds people to pay more attention to their health and not to rely on drugs to sustain their lives by eating pills on a plate as a meal.",
         "images": [
           "images/portfolio/PSA/PSA.png"
           
@@ -212,7 +212,7 @@
       {
         "title": "Visual Rhetoric Shape Morph",
         "startDate": "2020",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a video about growth done with After Effect. A lifetime is very short. I hope everyone can make their lives full of love and cherish every day.",
         "images": [
           
           "images/portfolio/video/V-1.jpeg"
@@ -237,7 +237,7 @@
       {
         "title": "2D character animation",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This is a small animation done with Adobe Character and After Effect. I really like this animated character I designed. Also got a good grade of A.",
         "images": [
           "images/portfolio/video/V-2.jpeg"
         ],
@@ -261,7 +261,7 @@
       {
         "title": "Kinetic Typography",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "This video shows the song of Believer in the form of kinetic typography, which is completed by After Effect.",
         "images": [
           "images/portfolio/video/V-3.jpeg"
           
