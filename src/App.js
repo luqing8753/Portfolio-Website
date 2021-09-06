@@ -83,7 +83,7 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        {/* <div className="col-md-12 mx-auto text-center language"> */}
           {/* <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -116,7 +116,7 @@ class App extends Component {
               id={window.$secondaryLanguageIconId}
             ></span>
           </div> */}
-        </div>
+        {/* </div> */}
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
